@@ -15,6 +15,11 @@ class Calculadora{
     }
 
     division(a, b){
-        return a/b;
+        if (b != 0 ){
+            return a/b;
+        } else {
+            throw new Error('Se intenta dividir entre cero.');
+        }
     }
+    
 } export default Calculadora;
