@@ -17,4 +17,6 @@ class Calculadora{
     division(a, b){
         return a/b;
     }
-} export default Calculadora;
+} 
+
+module.exports = Calculadora;
